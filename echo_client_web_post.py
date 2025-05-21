@@ -1,7 +1,7 @@
 import socket
 
 HOST = '220.149.232.226'
-PORT = 10000
+PORT = 10005
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
